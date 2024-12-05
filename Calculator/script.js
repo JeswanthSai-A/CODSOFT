@@ -1,4 +1,4 @@
-let input = document.getElementById('textinput');
+let input = document.getElementById('inputBox');
 let buttons = document.querySelectorAll('button');
 
 let string = "";
@@ -22,5 +22,6 @@ arr.forEach(button => {
             string += e.target.innerHTML;
             input.value = string;
         }
+        
     })
 })
